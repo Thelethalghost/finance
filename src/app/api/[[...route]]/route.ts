@@ -1,8 +1,5 @@
-import { Hono } from 'hono'
-import { handle } from 'hono/vercel'
-import { z } from "zod";
-import { zValidator } from '@hono/zod-validator';
-import { clerkMiddleware, getAuth } from "@hono/clerk-auth";
+import { Hono } from 'hono';
+import { handle } from 'hono/vercel';
 import accounts from './accounts';
 
 
